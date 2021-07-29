@@ -7,7 +7,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 const ROOT_PATH = path.resolve(__dirname, '../')
-const BUILD_PATH = path.resolve(ROOT_PATH, 'public')
+const BUILD_PATH = path.resolve(ROOT_PATH, 'dist')
 const APP_PATH = path.resolve(ROOT_PATH, 'src')
 const ENTRY_FILE = path.resolve(APP_PATH, 'app.module.ts')
 const TEMPLATE_FILE = path.resolve(APP_PATH, 'app.module.html')
